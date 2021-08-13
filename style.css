@@ -1,0 +1,365 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: "Lato", sans-serif;
+}
+.main{
+    
+}
+.clear{
+    clear: both;
+}
+/*----header----*/
+.header{
+    line-height: 46px;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    display: block;
+}
+.header .menu-down{
+    display: none;
+}
+.header .nav{
+    display: inline-block;
+    
+}
+.header .nav>li{
+    display: inline-block;
+    padding: 0 24px;    
+    
+}
+.header .nav>li>a{
+    display: block;
+    text-decoration: none;
+    line-height: 46px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.header .nav>li:hover{
+    background-color: #ccc;
+   
+}
+.header .nav>li:hover a{
+   color: #000;
+   
+}
+
+.header .nav .nav-more{
+    display: none;
+}
+.header .nav .last-nav{
+    position: relative;
+}
+.header .last-nav .nav-more{
+    position: absolute;
+}
+.header .last-nav:hover .nav-more{
+    display: block;    
+    left: 0px;
+}
+.header .last-nav:hover .nav-more>li{
+    background-color: #fff;        
+    list-style-type: none;   
+}
+.header .last-nav:hover .nav-more>li>a{
+    text-decoration: none;
+    padding: 0 12.5px;
+}
+.header .last-nav .nav-more>li:hover{
+    background-color: #ccc;
+}
+.header .search-btn{
+    color:#fff;    
+    float: right;    
+    width: 40px;
+}
+.header .search-btn>i{
+    display: block;
+    text-align: center;
+    line-height: 46px;  
+    font-weight: bold;  
+}
+.header .search-btn:hover{
+    background-color: red;
+}
+
+
+
+/*----slider----*/
+.slider{
+    padding-top: 50%;
+    margin-top: 46px;
+    background: url(https://www.w3schools.com/w3images/ny.jpg) top center / cover no-repeat;
+    position: relative;
+}
+.slider .text-content{
+    position: absolute;
+    width: 100%;
+    bottom: 6%;
+    text-align: center;
+    color: #fff;
+
+}
+.slider .content-heading{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+/*----content----*/
+.content{
+    max-width: 800px;
+    padding: 64px 16px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    display: block;
+}
+.content .theband{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 4px;
+    font-weight: 500;
+    font-family: "Segoe UI",Arial,sans-serif;
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+.content .text-ita{
+    text-align: center;    
+    font-family: "Segoe UI",Arial,sans-serif;
+    opacity: 0.6;
+    margin: 15px 0;
+    font-style: italic;
+}
+.content .main-content{
+    font-size: 15px;
+    line-height: 1.5;
+
+}
+/*
+/*----image---*/
+.image-cover{
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 32px 0;
+
+}
+.image-cover .img1{
+    float: left;
+    width: 33.3333%;
+
+}
+.image-cover .img1>img{
+    width: 60%;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+.image-cover .img1>.name{
+    margin: 15px 0;
+    height: 22px;
+    
+} 
+/* ---Tourdate--- */
+.Tour-date{
+    background-color: #000;    
+    max-width: 100%;
+    display: block;
+    color: #fff;
+    font-family: "Segoe UI",Arial,sans-serif;
+    height: 842px;
+   
+}
+.Tour-date .content-tour{
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    padding: 64px 16px;
+    min-width: 150px;
+    height: 100%;
+    
+    
+}
+.Tour-date .tour{
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 400;
+    
+}
+.Tour-date .sup-tour{
+    text-align: center;
+    margin: 15px 0;
+    color: grey;
+    font-style: italic;
+    
+}
+.Tour-date .time-status{   
+    background-color: #fff;
+    color: #000;
+    
+}
+.Tour-date .time-status>ul>li{
+    display: block;
+    line-height: 24px;
+    padding: 8px 16px;
+    color: grey;  
+    border: 0.5px solid rgba(230, 221, 210, 0.5);;
+  
+    
+}
+
+.Tour-date .time-status .label{
+    background-color: red;
+    color: #fff;
+    padding: 0 10px;
+    margin: 0 15px;
+    display: inline-block;
+}
+.Tour-date .time-status .amount{
+    color: #fff;
+    border: 1px solid #000;
+    background-color: #000;
+    border-radius: 0px;
+    margin-right: 10px;    
+    float:right;
+    width:26px;
+    border-radius: 20px;
+    text-align: center;
+}
+.Tour-date .Image-ticket{
+    margin: 30px 0px;
+    display: block;
+    background-color: #000;
+}
+.Tour-date .Image-ticket>div{
+    width: 33.3333%;
+    float:left;
+    padding: 0 8px;
+    background-color: #fff;
+    
+
+    
+}
+.Tour-date .Image-ticket>div>img{
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    
+
+}
+.Tour-date .Image-ticket>div>p{
+    text-align: justify;
+    color: #000;
+    margin: 15px 15px;
+
+}
+.Tour-date .Image-ticket>div .opaci{
+    opacity: 0.5;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .header .nav,.nav-downsize-more,.nav-downsize{
+        display: none;
+    }
+    .header .menu-down{
+        display: inline-block;
+        position: relative;
+        }
+    .header .menu-down>a{
+        display: inline-block;
+        color: #fff;
+        width: 100%;
+        line-height: 46px;
+        padding: 0 15px;    
+          
+       
+    }
+    .header .menu-down:hover .nav-downsize{
+        display: block;
+    }
+    .header .nav-downsize{
+        position: absolute;
+        width: 100px;
+    }
+
+    .header .nav-downsize>li{
+        background-color: #fff;
+        
+        padding: 0 15px;
+    }
+    .header .nav-downsize>li>a{
+        width: 100px;
+        text-decoration: none;
+        color: #000;
+
+    }
+    .header .nav-downsize>li:hover{
+        background-color: #ccc;
+    }
+    .header .nav-downsize-more{
+        position: absolute;
+        top: 184px;
+        left: 100px;
+        background-color: #fff;
+    }
+    .header .nav-downsize-more>li{
+        list-style-type: none;
+        width: 120px;
+        
+    }
+    .header .nav-downsize-more>li>a{
+        text-decoration: none;
+        padding: 0 15px;
+    }
+    .header .nav-downsize-more>li:hover{
+        background-color: #ccc;
+        
+    }   
+    .header .last-nav-more:hover>ul{
+       display: block;
+    }
+    .header .last-nav-more:hover .nav-downsize-more>li>a{
+        color: #000;
+    }
+    .content .img1{
+        display: block;    
+        text-align: center;
+        width: 100%;
+    }
+}
+
+
+/*
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .img1{
+        display: block;    
+        text-align: center;
+        width: 100%;
+    }
+    
+    .img1 img{  
+        border-radius: 4px;  
+        width: 60%;
+        margin-bottom: 16px !important;    
+    }
+    
+  }
+.footer{
+
+}
+  */
